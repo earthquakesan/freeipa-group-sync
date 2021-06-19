@@ -17,9 +17,13 @@ freeipa-group-sync is an application, which will sync memberships of users in th
 Edit groups.yaml and .envrc then:
 
 ```
-cd ../
+git clone https://github.com/earthquakesan/freeipa-group-sync
+
+# my modification to goipa is not yet in the upstream repo
+# you need to have my version of goipa in the parent dir (see go.mod)
 git clone https://github.com/earthquakesan/goipa
 
+cd freeipa-group-sync
 go build
 set -o allexport
 source .envrc
