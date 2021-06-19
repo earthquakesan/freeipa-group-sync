@@ -1,0 +1,22 @@
+groups: 
+  - name: group1
+    users:
+  - name: group2
+    users:
+  - name: group3
+    users:
+    - user5
+    - user6
+  - name: group4
+    users:
+    - user6
+    - user7
+  - name: group77
+    users:
+    - user1
+  - name: group571
+    users:
+    - user1
+    - user3
+  - name: mycoolgroup
+    users:
